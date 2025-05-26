@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registation Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Registation Form</h2>
+        <form id="myForm">
+            <input type="text" id="name" placeholder="Full Name" required/>
+            <input type="email" id="email" placeholder="Email" required/>
+            <input type="password" id="password" placeholder="Password" required/>
+            <input type="password" id="confirmPassword" placeholder="Confirm Password" required/>
+            <button type="submit">Register</button>
+        </form>
+        <p id="message"></p>
+    </div>
+</body>
+<script src="server.js"></script>
+</html>
